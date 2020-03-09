@@ -2,7 +2,7 @@ package Day3
 
 class Person(var name : String, var age : Int)
 
-object returntypes extends App {
+object Returntypes extends App {
 
     def showReturnOnCall () : Unit = {
       def person = new Person ("Gucci",23)
